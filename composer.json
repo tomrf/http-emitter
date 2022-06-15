@@ -1,8 +1,8 @@
 {
     "name": "tomrf/http-emitter",
     "type": "library",
-    "description": "http-emitter",
-    "keywords": [ "http-emitter" ],
+    "description": "PSR-7 response emitter",
+    "keywords": [ "http", "psr-7", "response-emitter", "http-message", "sapi", "cli-sapi" ],
     "homepage": "http://github.com/tomrf/http-emitter",
     "license": "MIT",
     "extra": {
