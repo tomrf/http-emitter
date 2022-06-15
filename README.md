@@ -1,4 +1,4 @@
-# http-emitter - http-emitter
+# http-emitter - PSR-7 response emitter
 
 [![PHP Version Require](http://poser.pugx.org/tomrf/http-emitter/require/php?style=flat-square)](https://packagist.org/packages/tomrf/http-emitter) [![Latest Stable Version](http://poser.pugx.org/tomrf/http-emitter/v?style=flat-square)](https://packagist.org/packages/tomrf/http-emitter) [![License](http://poser.pugx.org/tomrf/http-emitter/license?style=flat-square)](https://packagist.org/packages/tomrf/http-emitter)
 
@@ -95,4 +95,4 @@ public function emit(
 
 ***
 
-_Generated 2022-06-15T23:02:10+02:00 using 📚[tomrf/readme-gen](https://packagist.org/packages/tomrf/readme-gen)_
+_Generated 2022-06-15T23:05:29+02:00 using 📚[tomrf/readme-gen](https://packagist.org/packages/tomrf/readme-gen)_
