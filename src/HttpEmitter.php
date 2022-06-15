@@ -14,6 +14,10 @@ use Tomrf\HttpEmitter\Sapi\SapiEmitter;
  */
 class HttpEmitter
 {
+    /**
+     * Emits the response using SapiEmitter or SapiCliEmitter based on
+     * current PHP SAPI.
+     */
     public function emit(ResponseInterface $response): void
     {
         $emitterClass = SapiEmitter::class;

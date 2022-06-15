@@ -5,6 +5,15 @@
     "keywords": [ "http-emitter" ],
     "homepage": "http://github.com/tomrf/http-emitter",
     "license": "MIT",
+    "extra": {
+        "intro": [
+            "Simple PSR-7 response emitter with sensible CLI SAPI output"
+        ],
+        "example": [
+            "$httpEmitter = new HttpEmitter();",
+            "$httpEmitter->emit($response); // PSR-7 response object"
+        ]
+    },
     "require": {
         "php": ">=8.0",
         "psr/http-message": "^1.0"
@@ -17,7 +26,8 @@
         "roave/security-advisories": "dev-latest",
         "nyholm/psr7-server": "^1.0",
         "nyholm/psr7": "^1.5",
-        "fakerphp/faker": "^1.19"
+        "fakerphp/faker": "^1.19",
+        "tomrf/readme-gen": "^0.0.5"
     },
     "autoload": {
         "psr-4": {

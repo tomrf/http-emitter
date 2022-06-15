@@ -12,6 +12,9 @@ use Tomrf\HttpEmitter\Interface\SapiEmitterInterface;
  */
 class SapiEmitter implements SapiEmitterInterface
 {
+    /**
+     * Emits the response to standard output.
+     */
     public function emit(ResponseInterface $response): void
     {
         $this->setHeaders($response);

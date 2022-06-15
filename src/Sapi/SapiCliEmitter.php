@@ -17,7 +17,7 @@ class SapiCliEmitter extends SapiEmitter implements SapiEmitterInterface
     private const TERM_COLOR_ERROR = 91;
 
     /**
-     * Emits the response body.
+     * Emits the response to terminal.
      */
     public function emit(ResponseInterface $response): void
     {
